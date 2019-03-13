@@ -1,0 +1,43 @@
+.App {
+  background: 'https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80';
+}
+.signin-modal{
+  font-family: 'Din Pro';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+  .title {
+    font-family: 'Din Pro';
+  }
+
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-top: 10px;
+      border: none;
+      border-bottom: 1px solid #000000;
+    }
+    label {
+      font-family: 'Din Pro';
+      margin-bottom: 26px;
+    }
+    .submit {
+      border-radius: 7px;
+      margin-left: 20px;
+      width: 65px;
+      height: 20px;
+    }
+  }
+}
